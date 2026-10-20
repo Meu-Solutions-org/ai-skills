@@ -1,0 +1,8 @@
+{
+  "name": "plane-meu",
+  "version": "1.0.0",
+  "description": "MeU team skills for Plane (plane.meu-solutions.com): summarize tickets, write tickets, and run the feature workflow, for any project listed in shared/projects.json.",
+  "author": {
+    "name": "MeU Solutions"
+  }
+}

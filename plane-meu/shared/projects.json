@@ -1,0 +1,27 @@
+{
+  "defaults": {
+    "base_url": "https://plane.meu-solutions.com",
+    "mcp_server": "plane",
+    "content_language": "en",
+    "base_branch": null
+  },
+  "projects": {
+    "FOSCO": {
+      "name": "FOSCO",
+      "workspace_slug": "fosco",
+      "project_id": "4bacaab9-6ff5-4ea8-be4c-30db72d1eec4",
+      "content_language": "vi",
+      "base_branch": "develop",
+      "states": {
+        "backlog": ["Backlog"],
+        "started": ["Ready For UAT", "Test Deployed", "UAT Deployed"],
+        "completed": ["Done"],
+        "cancelled": ["Cancelled"]
+      },
+      "awaiting_verification_states": ["Ready For UAT"],
+      "ui_hints": "Many bugs are about payroll/tax table columns; those count as UI-related.",
+      "image_notes": "Screenshots are usually embedded inline in description_html and often point at Discord CDN URLs with an expiring signature (`ex=` param); they may no longer load.",
+      "codebase_notes": "Database migrations live in `migration/`. Payroll and tax are separate areas; split the codebase agent per area when a ticket spans both."
+    }
+  }
+}

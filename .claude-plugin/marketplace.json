@@ -1,0 +1,16 @@
+{
+  "name": "meu-ai-skills",
+  "owner": {
+    "name": "MeU Solutions"
+  },
+  "metadata": {
+    "description": "MeU team-internal skills (Plane ticket workflow)."
+  },
+  "plugins": [
+    {
+      "name": "plane-meu",
+      "source": "./plane-meu",
+      "description": "Plane ticket skills: plane-ticket-summarizer, write-ticket, feature-workflow."
+    }
+  ]
+}
